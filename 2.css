@@ -1,0 +1,80 @@
+body {
+	background: #232323;
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	background: #00a0b0;
+	font-weight: 600;
+	line-height: 3rem;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: 1rem;
+	transition: background 0.2s;
+}
+
+.square {
+	width: 30%;
+	padding-top: 30%;
+	float: left;
+	background: purple;
+	margin: 1.66%;
+	border-radius: 20%;
+	transition: background 0.4s;
+}
+
+.container {
+	max-width: 60vw;
+	margin: 0 auto;
+}
+
+h1 span {
+	font-size: 4rem;
+	color: white;
+}
+
+#navbar {
+	margin-bottom: 2rem;
+	margin-top: 0;
+	background: white;
+	font-size: 1.5rem;
+	height: 30px;
+	padding-bottom: 0.5rem;
+}
+
+.selected {
+	background-color: #00a0b0;
+	color: white;
+}
+
+button {
+	border: none;
+	background: none;
+	font-weight: 600;
+	padding-top: 0.35rem;
+	padding-bottom: 0.35rem;
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+	font-weight: 600;
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+	color: #00a0b0;
+	transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	background: #00a0b0;
+	color: white;
+}
+
+#message {
+	display: inline-block;
+	width: 30%;
+}
